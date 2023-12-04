@@ -1,9 +1,6 @@
 package org.boy.aoc.twentytwentythree.exercises;
 
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 
 public class day3 extends SolutionTemplate {
     public String pointOne(String input) {

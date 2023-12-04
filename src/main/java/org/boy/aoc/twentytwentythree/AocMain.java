@@ -34,7 +34,7 @@ public class AocMain
 
     public String runDay(int dayNumber, int pointNumber, String input) {
         SolutionTemplate[] days = {
-                new day1(), new day2(), new day3()
+                new day1(), new day2(), new day3(), new day4()
         };
 
         return (pointNumber == 1) ? days[dayNumber - 1].pointOne(input) : days[dayNumber - 1].pointTwo(input);

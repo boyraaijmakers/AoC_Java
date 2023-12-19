@@ -1,6 +1,7 @@
 package org.boy.aoc.twentytwentythree.exercises;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class day18 extends SolutionTemplate {
 

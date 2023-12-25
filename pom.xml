@@ -19,13 +19,17 @@
   </properties>
 
   <dependencies>
-    <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+    <!-- https://mvnrepository.com/artifact/javax.vecmath/vecmath -->
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
       <version>r05</version>
     </dependency>
-
+    <dependency>
+      <groupId>org.jgrapht</groupId>
+      <artifactId>jgrapht-core</artifactId>
+      <version>1.5.2</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -71,6 +75,7 @@
           <version>3.0.0</version>
         </plugin>
       </plugins>
+
     </pluginManagement>
     <plugins>
       <plugin>
